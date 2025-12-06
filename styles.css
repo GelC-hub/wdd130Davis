@@ -10,6 +10,28 @@
 
 
 
+/*Fonts:
+Heading Font: INLANDERS
+Paragraph Font: Coolvetica
+*/
+
+/*home page*/
+body {
+   background-color: #FFF5E9;
+}
+header {
+   background-color: #FFF5E9;
+}
+.logo {
+   border-radius: 10%;
+}
+nav {
+   border: solid;
+   border-color: #3C0A3C;
+}
+h1 {
+   color: #3C0A3C;
+}
 
 /*games page*/
 /*
