@@ -14,7 +14,10 @@
 Heading Font: INLANDERS
 Paragraph Font: Coolvetica
 */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 /*home page*/
 header {
     display: grid;
@@ -23,11 +26,10 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-image: url("images/headerbackdrop.jpg");
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;   
-    background-position: center;
-    background-size: 100% 100%;
-    background-position: right;
+    height: 320px;
 }
 .logo {
    display: grid;
@@ -57,7 +59,8 @@ nav a:hover {
 #searchbar {
     margin-left: 210px;
     margin-bottom: 50px;
-    width: 400px;
+    margin-top: 50px;
+    width: 900px;
 }
 body {
    background-color: #FFF5E9;
@@ -83,6 +86,9 @@ h1 {
     border-radius: 5%; 
 }
 .button {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
     width: 130px;
     height: 75px;
     cursor: pointer;
@@ -91,6 +97,29 @@ h1 {
     font-size: 25px; 
     text-shadow: 2px 2px 5px #ff78ff; 
     border-radius: 12px;
+    place-self: center;
+}
+.belowhero {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+#ratingsicon {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+#guidesicon {
+
+}
+#tagsicon {
+
+}
+#generatoricon {
+
 }
 
 /*games page*/
