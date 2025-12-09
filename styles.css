@@ -156,6 +156,11 @@ input {
     width: 300px;
     height: 400px;
 }
+.ratings {
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
 details {
     max-width: 100%;
     display: flex;
