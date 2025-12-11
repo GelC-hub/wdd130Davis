@@ -63,7 +63,7 @@ nav a:hover {
     border-radius: 999px;
 }
 body {
-   background-color: #FFF5E9;
+    background-color: #d7bea4;
 }
 .hero {
     display: grid;
@@ -111,15 +111,6 @@ h1 {
     float: left;
     width: 100px;
     height: 100px;
-}
-#guidesicon {
-
-}
-#tagsicon {
-
-}
-#generatoricon {
-
 }
 
 /*games page*/
