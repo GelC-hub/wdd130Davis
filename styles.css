@@ -180,6 +180,13 @@ details {
 
 
 /*movies and shows page*/
+/*
+colors:
+#5be0e6 - light blue
+#ffab59 - light orange
+#ff78ff - light pink
+#3c0a3c - dark purple
+*/
 #moviesandshows {
     text-align: center;
     margin: 40px;
@@ -188,13 +195,14 @@ details {
     font-size: 1.3em;
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 50px;
 }
 input {
     width: 100%;
 }
 #movies h1, #shows h1 {
     font-size: 3em;
-    margin-bottom: 0;
+    margin-bottom: 100px;
     margin-top: 100px;
     grid-column: 1 / 6;
     grid-row: 1/2;
@@ -206,7 +214,18 @@ input {
     grid-template-rows: 150px 500px;
     max-height: 500px;
     justify-items: center;
-    margin-bottom: 100px;
+    padding-bottom: 240px;
+
+}
+.poster_and_details h2 {
+    max-width: 225px;
+}
+#movies {
+    margin-top: 50px;
+    background-color: #5be0e6;
+}
+#shows {
+    background-color: #ffab59;
 }
 .poster_and_details img {
     width: 200px;
