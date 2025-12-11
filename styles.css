@@ -186,3 +186,51 @@ details {
     margin-right: 50px;
 }
 
+
+
+/*movies and shows page*/
+#moviesandshows {
+    text-align: center;
+    margin: 40px;
+}
+#m_intro {
+    font-size: 1.3em;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+input {
+    width: 100%;
+}
+#movies h1, #shows h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 100px;
+    grid-column: 1 / 6;
+    grid-row: 1/2;
+
+}
+#movies, #shows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 500px;
+    max-height: 500px;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+.poster_and_details img {
+    width: 200px;
+    height: 300px;
+}
+.content-ratings {
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
+details {
+    max-width: 100%;
+    display: flex;
+    justify-self: center;
+
+}
+
+
